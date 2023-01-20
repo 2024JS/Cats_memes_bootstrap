@@ -39,6 +39,11 @@ body {
   color: aqua !important;
 }
 
+@media (max-width: 400px) {
+  .post__date {
+    text-align: start;
+  }
+}
 .comment__body {
   display: grid;
   grid-template: 1fr/1fr 1fr;

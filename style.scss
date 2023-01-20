@@ -39,6 +39,12 @@ body {
 }
 
 
+@media (max-width: 400px) {
+  .post__date{
+text-align: start;
+}
+}
+
 .comment {
   &__body {
     display: grid;
