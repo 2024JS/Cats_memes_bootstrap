@@ -1,13 +1,13 @@
-body{
-  background-color: #212529!important;
+body {
+  background-color: #212529 !important;
 
 }
 
-.post_row{
- padding-bottom: 50px;
+.post_row {
+  padding-bottom: 50px;
 }
 
-.post_title{
+.post_title {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,9 +18,9 @@ body{
   border-bottom: none;
   margin-bottom: 0;
   @media (min-width: 550px) {
-    display: table;//ширина по тексту в заголовке
+    display: table; //ширина по тексту в заголовке
     /*border-bottom: 1px solid black;//само подчеркивание*/
-    line-height: 45px;//высота строки, ну и соответственно отступ от подчеркивания
+    line-height: 45px; //высота строки, ну и соответственно отступ от подчеркивания
     font-size: 3.5VMIN;
   }
 }
@@ -29,23 +29,26 @@ body{
   border-bottom: 1px solid black;
 }*/
 
-.color1{
-  background-color: #3d3d3d!important;
+.color1 {
+  background-color: #3d3d3d !important;
   color: aqua !important;
 }
 
-.tx-color1{
+.tx-color1 {
   color: aqua !important;
 }
+
 
 .comment {
   &__body {
     display: grid;
     grid-template: 1fr / 1fr 1fr;
+
     &__ava {
       width: 50px;
       height: 50px;
       margin-bottom: 5px;
+
       > img {
         height: 100%;
         width: auto;
@@ -54,32 +57,33 @@ body{
     }
   }
 }
-.rounded-bottom50{
+
+.rounded-bottom50 {
   border-radius: 0 0 50px 50px !important;
 }
 
-.m-0i{
-  margin: 0!important;
+.m-0i {
+  margin: 0 !important;
 }
 
-.p-0i{
-  padding: 0!important;
+.p-0i {
+  padding: 0 !important;
 }
 
 .active1 {
-  color: aqua!important;
-  background-color: blue!important;
-  border-color: white!important;
+  color: aqua !important;
+  background-color: blue !important;
+  border-color: white !important;
 }
 
 footer {
-  padding: 15px 0 15px 0!important;
-  margin: 20px 0 0 0!important;
+  padding: 15px 0 15px 0 !important;
+  margin: 20px 0 0 0 !important;
 
   background: #131313; /* Old browsers */
   background: -moz-radial-gradient(ellipse at center, #131313 0%, #1c1c1c 9%, #2b2b2b 24%, #111111 40%, #000000 49%, #2c2c2c 50%, #474747 61%, #666666 75%, #595959 88%, #4c4c4c 100%); /* FF3.6-15 */
-  background: -webkit-radial-gradient(ellipse at center, #131313 0%,#1c1c1c 9%,#2b2b2b 24%,#111111 40%,#000000 49%,#2c2c2c 50%,#474747 61%,#666666 75%,#595959 88%,#4c4c4c 100%); /* Chrome10-25,Safari5.1-6 */
-  background: radial-gradient(ellipse at center, #131313 0%,#1c1c1c 9%,#2b2b2b 24%,#111111 40%,#000000 49%,#2c2c2c 50%,#474747 61%,#666666 75%,#595959 88%,#4c4c4c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#131313', endColorstr='#4c4c4c',GradientType=1 );
+  background: -webkit-radial-gradient(ellipse at center, #131313 0%, #1c1c1c 9%, #2b2b2b 24%, #111111 40%, #000000 49%, #2c2c2c 50%, #474747 61%, #666666 75%, #595959 88%, #4c4c4c 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, #131313 0%, #1c1c1c 9%, #2b2b2b 24%, #111111 40%, #000000 49%, #2c2c2c 50%, #474747 61%, #666666 75%, #595959 88%, #4c4c4c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#131313', endColorstr='#4c4c4c', GradientType=1);
 
 }

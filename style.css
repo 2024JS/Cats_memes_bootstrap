@@ -79,7 +79,7 @@ footer {
   background: -moz-radial-gradient(ellipse at center, #131313 0%, #1c1c1c 9%, #2b2b2b 24%, #111111 40%, #000000 49%, #2c2c2c 50%, #474747 61%, #666666 75%, #595959 88%, #4c4c4c 100%); /* FF3.6-15 */
   background: -webkit-radial-gradient(ellipse at center, #131313 0%, #1c1c1c 9%, #2b2b2b 24%, #111111 40%, #000000 49%, #2c2c2c 50%, #474747 61%, #666666 75%, #595959 88%, #4c4c4c 100%); /* Chrome10-25,Safari5.1-6 */
   background: radial-gradient(ellipse at center, #131313 0%, #1c1c1c 9%, #2b2b2b 24%, #111111 40%, #000000 49%, #2c2c2c 50%, #474747 61%, #666666 75%, #595959 88%, #4c4c4c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#131313", endColorstr="#4c4c4c",GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#131313", endColorstr="#4c4c4c", GradientType=1);
 }
 
 /*# sourceMappingURL=style.css.map */
