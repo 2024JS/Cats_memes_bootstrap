@@ -11,8 +11,13 @@
     height: auto;
   }
 }
-body {
-  background-color: #212529 !important;
+.bg-grad {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1c1c1c+0,212121+12,262626+25,1a1a1a+39,101010+50,000000+51,060606+60,101010+76,0a0a0a+91,070707+100 */
+  background: #1c1c1c; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #1c1c1c 0%, #212121 12%, #262626 25%, #1a1a1a 39%, #101010 50%, #000000 51%, #060606 60%, #101010 76%, #0a0a0a 91%, #070707 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #1c1c1c 0%, #212121 12%, #262626 25%, #1a1a1a 39%, #101010 50%, #000000 51%, #060606 60%, #101010 76%, #0a0a0a 91%, #070707 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #1c1c1c 0%, #212121 12%, #262626 25%, #1a1a1a 39%, #101010 50%, #000000 51%, #060606 60%, #101010 76%, #0a0a0a 91%, #070707 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#1c1c1c", endColorstr="#070707",GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 .post_row {
