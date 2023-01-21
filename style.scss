@@ -1,9 +1,39 @@
+@media (max-width: 500px) {
+  .post__date {
+    text-align: start;
+  }
+  .courusel-img-container {
+    height: auto !important;
+    & > img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
+
+
+
 body {
   background-color: #212529 !important;
 }
 
 .post_row {
   padding-bottom: 50px;
+}
+
+.courusel-size1 {
+  max-height: 700px;
+}
+
+.courusel_img {
+  max-height: 690px;
+}
+
+
+.opac-10 {
+  background-color: rgb(0, 0, 0, 0.4);
+  width: fit-content;
+  padding: 0 7px 3px 7px;
 }
 
 .post_title {
@@ -32,11 +62,7 @@ body {
 .tx-color1 {
   color: aqua !important;
 }
-@media (max-width: 400px) {
-  .post__date{
-text-align: start;
-}
-}
+
 
 .comment {
   &__body {
