@@ -3,10 +3,10 @@
   .post__date {
     text-align: start;
   }
-  .courusel-img-container {
+  .carousel-img-container {
     height: auto !important;
   }
-  .courusel-img-container > img {
+  .carousel-img-container > img {
     max-width: 100%;
     height: auto;
   }
@@ -24,11 +24,11 @@
   padding-bottom: 50px;
 }
 
-.courusel-size1 {
+.carousel-size1 {
   max-height: 700px;
 }
 
-.courusel_img {
+.carousel_img {
   max-height: 690px;
 }
 
